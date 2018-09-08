@@ -17,7 +17,8 @@ public class Detail extends Dialog {
 	private void init() {
 		add(new Label("Hi there"));
 
-		DatePicker datePicker = new DatePicker();
+		// uncomment the next line and it won't compile!
+//		DatePicker datePicker = new DatePicker();
 //		add(datePicker);
 	}
 }
